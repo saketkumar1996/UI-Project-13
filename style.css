@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Raleway", sans-serif;
+}
+ul {
+  list-style: none;
+}
+header {
+  font-weight: 600;
+  background-color: rgb(134, 23, 245);
+  color: #ffffff;
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+nav ul {
+  display: flex;
+  width: 40vw;
+  justify-content: space-around;
+  align-items: center;
+}
+.btn {
+  font-weight: 700;
+  background-color: aqua;
+  color: #ffffff;
+  border: none;
+  padding: 10px 15px;
+}
+.hero-section {
+  background-color: rgb(134, 23, 245);
+  color: #ffffff;
+  font-weight: 500;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.text-section {
+  height: fit-content;
+  margin: 20px;
+  width: 30vw;
+}
+.hero-img {
+  height: 85vh;
+  margin: 20px;
+  margin-top: 5vh;
+  width: 50vw;
+}
+.text-section h1 {
+  margin-left: -2vw;
+  margin-bottom: 5vh;
+  font-size: 3em;
+}
+.hero-section img {
+  height: 85vh;
+}
+.sec-02 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.sec-02 .text-section {
+  padding: 10px;
+  width: 25vw;
+}
+.sec-02 .text-section h1 {
+  font-size: 1.8em;
+}
+.sec-02 .text-section p {
+  font-size: 0.9em;
+  font-weight: 600;
+  color: rgba(133, 134, 135, 0.931);
+  margin: 1vh 0;
+}
+.sec-02-img {
+  height: 85vh;
+  margin: 20px;
+  margin-top: 5vh;
+  width: 50vw;
+}
+.sec-02-img img {
+  height: 85vh;
+}
+.heading h1 {
+  margin: 5vh auto;
+  text-align: center;
+  width: 30vw;
+}
+.cards {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+}
+.cards img {
+  margin: 10px;
+  height: 60%;
+  width: 90%;
+}
+.card {
+  margin: 10px;
+  width: 22vw;
+  border-radius: 25px;
+  box-shadow: 20px -20px 15px 1px rgba(182, 179, 179, 0.654);
+}
+.card .text {
+  padding: 10px;
+  background-color: rgb(134, 23, 245);
+  color: #ffffff;
+  width: 70%;
+  margin: 0 auto;
+  border-radius: 20px;
+}
